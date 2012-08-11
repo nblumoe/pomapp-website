@@ -2,7 +2,6 @@
 layout: page
 title: PomodoroEasy
 tagline: Supporting tagline
-group: navigation
 ---
 {% include JB/setup %}
 
