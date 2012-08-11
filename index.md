@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PomodoroEasy
-tagline: Supporting tagline
+tagline: Simply boost your productivity
 ---
 {% include JB/setup %}
 
