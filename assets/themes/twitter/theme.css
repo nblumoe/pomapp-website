@@ -4495,6 +4495,14 @@ a.badge:hover {
   line-height: 36px;
   color: inherit;
 }
+.tourfeature {
+  margin-bottom: 18px;
+  border-bottom: 1px solid #eee;
+}
+.tourfeature img {
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
 .pull-right {
   float: right;
 }
