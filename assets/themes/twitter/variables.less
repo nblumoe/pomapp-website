@@ -30,16 +30,24 @@
 @pink:                  #c3325f;
 @purple:                #7a43b6;
 
+// PomodoroEasy Colors
+// --------------------------
+@primary:               #0C5A81;
+@primary2:              #D7E0E5;
+@primary3:              #FFFFFF;
+@secondaryA:            #1F1AB2;
+@secondaryB:            #00AC6B;
+@complementary:         #D84704;
 
 // Scaffolding
 // -------------------------
-@bodyBackground:        @white;
-@textColor:             @grayDark;
+@bodyBackground:        white; 
+@textColor:             #171717;
 
 
 // Links
 // -------------------------
-@linkColor:             #08c;
+@linkColor:             @primary;
 @linkColorHover:        darken(@linkColor, 15%);
 
 
@@ -48,13 +56,14 @@
 @sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
 @serifFontFamily:       Georgia, "Times New Roman", Times, serif;
 @monoFontFamily:        Menlo, Monaco, Consolas, "Courier New", monospace;
+@brandFontFamily:       Chivo, sans-serif;
 
 @baseFontSize:          16px;
-@baseFontFamily:        @sansFontFamily;
+@baseFontFamily:        @serifFontFamily;
 @baseLineHeight:        24px;
-@altFontFamily:         @serifFontFamily;
+@altFontFamily:         @sansFontFamily;
 
-@headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
+@headingsFontFamily:    @sansFontFamily; // empty to use BS default, @baseFontFamily
 @headingsFontWeight:    bold;    // instead of browser default, bold
 @headingsColor:         inherit; // empty to use BS default, @textColor
 
@@ -73,7 +82,7 @@
 @btnBackgroundHighlight:            darken(@white, 10%);
 @btnBorder:                         #ccc;
 
-@btnPrimaryBackground:              @linkColor;
+@btnPrimaryBackground:              @complementary;
 @btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 15%);
 
 @btnInfoBackground:                 #5bc0de;
@@ -146,11 +155,11 @@
 // Navbar
 // -------------------------
 @navbarHeight:                    40px;
-@navbarBackground:                @bodyBackground;
-@navbarBackgroundHighlight:       @bodyBackground;
+@navbarBackground:                @primary;
+@navbarBackgroundHighlight:       @primary;
 
-@navbarText:                      @textColor;
-@navbarLinkColor:                 @linkColor;
+@navbarText:                      @primary2;
+@navbarLinkColor:                 @navbarText;
 @navbarLinkColorHover:            @linkColorHover;
 @navbarLinkColorActive:           @linkColor;
 @navbarLinkBackgroundHover:       transparent;

@@ -8,6 +8,9 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+// Webfonts
+@import url(http://fonts.googleapis.com/css?family=Chivo);
+
 // CSS Reset
 @import "bootstrap/reset.less";
 
@@ -27,8 +30,22 @@
 @import "bootstrap/tables.less";
 
 body {
-  padding-top: 50px;
+  padding-top: 40px;
+  background-image: url('./images/lightpaperfibers.png');
 }
+
+.content {
+  background: white;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 2px 3px 12px rgba(0,0,0,0.5);
+}
+
+footer {
+  padding-top: 10px;
+  text-align: center;
+  font-size: @baseFontSize - 4;
+} 
 
 // Components: common
 @import "bootstrap/sprites.less";
@@ -45,6 +62,13 @@ body {
 // Components: Nav
 @import "bootstrap/navs.less";
 @import "bootstrap/navbar.less";
+
+.navbar {
+  font-family: @headingsFontFamily;
+  .brand {
+  font-family: @brandFontFamily;
+  }
+}
 
 .navbar-inner {
   #gradient > .vertical(@navbarBackgroundHighlight, @navbarBackground);
