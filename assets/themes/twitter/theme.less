@@ -41,6 +41,13 @@
 // Components: Nav
 @import "bootstrap/navs.less";
 @import "bootstrap/navbar.less";
+
+.navbar-inner {
+  #gradient > .vertical(@navbarBackgroundHighlight, @navbarBackground);
+  .border-radius(0px);
+  .box-shadow(~"0 5px 30px rgba(0, 0, 0, .25), inset 0 -8px 17px -2px rgba(0, 0, 0, .1)");
+}
+
 @import "bootstrap/breadcrumbs.less";
 @import "bootstrap/pagination.less";
 @import "bootstrap/pager.less";
