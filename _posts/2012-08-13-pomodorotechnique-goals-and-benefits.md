@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "PomodoroTechnique: Goals and Benefits"
-description: ""
+description: "What are the Goals and Benefits of the PomodoroTechnique.
+Why should you use it?"
 category: 
 tags: []
 ---

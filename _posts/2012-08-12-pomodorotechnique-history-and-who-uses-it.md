@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "PomodoroTechnique: History and who uses it"
-description: ""
+description: "The invention of the PomodoroTechnique by Francesco
+Cirillo. Who can benefit from this?"
 category: 
 tags: []
 ---

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "PomodoroTechnique: Measuring Results and Improving"
-description: ""
+description: "How to measure results when using the PomodoroTechnique
+and how to improve based on these."
 category: 
 tags: []
 ---

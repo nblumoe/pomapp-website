@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "PomodoroTechnique: Using the timer"
-description: ""
+description: "The most important feature of the PomdoroTechnique is the
+timer. Learn how to use it."
 category: 
 tags: []
 ---

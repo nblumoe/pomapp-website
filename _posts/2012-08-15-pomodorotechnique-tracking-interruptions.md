@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "PomodoroTechnique: Tracking Interruptions"
-description: ""
+description: "How to track internal and external interruptions when using the
+PomodoroTechnique."
 category: 
 tags: []
 ---
