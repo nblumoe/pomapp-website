@@ -5,4 +5,4 @@ description: ""
 ---
 {% include JB/setup %}
 
-> Test
+We just launched, sadly there are no testimonials yet.
