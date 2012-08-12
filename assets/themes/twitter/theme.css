@@ -1477,7 +1477,7 @@ table .span24 {
   margin-left: 0;
 }
 body {
-  padding-top: 40px;
+  padding-top: 60px;
   background-image: url('./images/lightpaperfibers.png');
 }
 footer {
@@ -3613,6 +3613,25 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar .brand {
   font-family: Chivo, sans-serif;
+  font-size: 22px;
+}
+.navbar button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar .signup {
+  background: #d7e0e5;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  text-align: center;
+  position: relative;
+  top: -30px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, .25), inset 0 0px 7px 0px rgba(0, 0, 0, .4);
+  -moz-box-shadow: 0 5px 30px rgba(0, 0, 0, .25), inset 0 0px 7px 0px rgba(0, 0, 0, .4);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, .25), inset 0 0px 7px 0px rgba(0, 0, 0, .4);
 }
 .navbar-inner {
   background-color: #0c5a81;
