@@ -1475,6 +1475,9 @@ table .span24 {
   width: 1884px;
   margin-left: 0;
 }
+body {
+  padding-top: 50px;
+}
 [class^="icon-"],
 [class*=" icon-"] {
   display: inline-block;
