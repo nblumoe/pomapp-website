@@ -1480,12 +1480,6 @@ body {
   padding-top: 40px;
   background-image: url('./images/lightpaperfibers.png');
 }
-.content {
-  background: white;
-  padding: 10px;
-  border-radius: 3px;
-  box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.5);
-}
 footer {
   padding-top: 10px;
   text-align: center;
