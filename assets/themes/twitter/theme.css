@@ -134,7 +134,7 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #171717;
@@ -628,7 +628,7 @@ input,
 button,
 select,
 textarea {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 label {
   display: block;
