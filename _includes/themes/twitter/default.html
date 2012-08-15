@@ -57,14 +57,15 @@
     </div> <!-- /container -->
 
     <div ng-show="showSignUp" ng-click="showSignUp = false" class="lightbox-dimmer"></div>
-    <div ng-show="showSignUp" class="signup">
+    <div ng-show="showSignUp" class="signup" ng-controller="SignUpCtrl">
       <p>
         We are in closed beta right now. Just drop your E-Mail and
         we will send you an invitation soon. Thanks.
       </p>
       <form class="form-inline">
-        <input class="input-xlarge" type='email' placeholder='Your E-Mail'></input>
-        <button type='submit' class="btn btn-primary">Sign Up for Free</button>
+        <input class="input-xlarge" type='email' ng-model="email" placeholder='Your E-Mail'></input>
+        {{ email }}
+        <button type='submit' class="btn btn-primary" ng-click="send()">Sign Up for Free</button>
       </form>
     </div>
 
