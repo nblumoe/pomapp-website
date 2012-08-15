@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app>
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
@@ -35,15 +35,11 @@
             </ul>
             <div class="pull-right">
               <a href="http://app.pomodoroeasy.com" class="btn btn-mini pull-right">Login</a>
+              <a href="#" ng-click="showSignUp = true" class="btn
+                btn-primary pull-right">Sign Up for Free</a>
             </div>
           </div>
         </div>
-      </div>
-      <div class="signup">
-        <form class="form-inline">
-          <input class="input-xlarge" type='email' placeholder='Your E-Mail'></input>
-          <button type='submit' class="btn btn-primary">Sign Up for Free</button>
-        </form>
       </div>
     </div>
 
@@ -54,14 +50,26 @@
       </div>
 
       <footer>
-        <p>&copy; {{ site.author.name }} 2012 
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+      <p>&copy; <a href="http://nils-blum-oeste.net">{{ site.author.name }}</a> 2012 
         </p>
       </footer>
 
     </div> <!-- /container -->
 
+    <div ng-show="showSignUp" ng-click="showSignUp = false" class="lightbox-dimmer"></div>
+    <div ng-show="showSignUp" class="signup">
+      <p>
+        We are in closed beta right now. Just drop your E-Mail and
+        we will send you an invitation soon. Thanks.
+      </p>
+      <form class="form-inline">
+        <input class="input-xlarge" type='email' placeholder='Your E-Mail'></input>
+        <button type='submit' class="btn btn-primary">Sign Up for Free</button>
+      </form>
+    </div>
+
     {% include JB/analytics %}
+    <script src="/assets/js/angular.min.js"></script>
+    <script src="/assets/js/app.js"></script>
   </body>
 </html>
