@@ -2,8 +2,8 @@
 
 var PomodoroEasyWebsite = angular.module('PomodoroEasyWebsite', []);
 
-function SignUpCtrl($scope, $http) {
-  var url = 'http://localhost:3001/users';
+function SignUpCtrl($scope, $http, config) {
+  var url = config.backend.url;
   $scope.send = function() {
     var data = { 'user' : { 'email': $scope.email} }
     $http.post(url, data).success( onSuccess ).error( onError );
@@ -20,5 +20,17 @@ function SignUpCtrl($scope, $http) {
     $scope.errorMessage = response.errors.email[0];
   };
 };
-SignUpCtrl.$inject = ['$scope', '$http'];
+SignUpCtrl.$inject = ['$scope', '$http', 'Config'];
 
+
+PomodoroEasyWebsite.factory('Config', function() {
+    var config = {};
+
+    // config for client on localhost
+    config.backend = { url : 'http://localhost:3001/users' };
+    // overwrite config for hosted client
+    if (location.host != 'localhost:4000') {
+      config.backend = { url : 'https://pomodoroeasy.herokuapp.com:443/users' };
+    };
+    return config
+  });
