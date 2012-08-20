@@ -1,4 +1,8 @@
 <div class="page-header">
+  {% if page.title == 'PomodoroEasy' %}
+  <h1><img class="logo" src="/assets/images/logo.png"></img> {% if page.tagline %} <small class="logo-tagline">{{ page.tagline }}</small>{% endif %}</h1>
+  {% else %}
   <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+  {% endif %}
 </div>
 {{ content }}

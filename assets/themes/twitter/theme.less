@@ -67,6 +67,11 @@ footer {
   }
 }
 
+.navbar .logo {
+  height: 30px;
+  padding-top: 4px;
+}
+
 .lightbox-dimmer {
   position: absolute;
   width: 100%;
@@ -99,7 +104,17 @@ footer {
 .navbar-inner {
   #gradient > .vertical(@navbarBackgroundHighlight, @navbarBackground);
   .border-radius(0px);
-  .box-shadow(~"0 5px 30px rgba(0, 0, 0, .25), inset 0 -4px 70px 0px rgba(0, 0, 0, .4)");
+  .box-shadow(~"0 5px 30px rgba(0, 0, 0, .25))");
+}
+
+.page-header {
+  .logo {
+    height: 75px;
+  }
+  .logo-tagline {
+    position: relative;
+    top: 12px;
+  }
 }
 
 @import "bootstrap/breadcrumbs.less";
