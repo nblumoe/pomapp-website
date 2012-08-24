@@ -62,17 +62,17 @@
       class="ng-cloak lightbox-dimmer"></div>
     <div ng-show="showSignUp" ng-cloak class="ng-cloak signup" ng-controller="SignUpCtrl">
       <p>
-        We are in closed beta right now. Just drop your E-Mail and
-        we will send you an invitation soon. Thanks.
-      </p>
+      Just provide an E-Mail and get your
+      invitation right now.</p>
       <form class="form-inline">
         <input class="input-xlarge" type='text' ng-model="email" placeholder='Your E-Mail'></input>
         <button type='submit' class="btn btn-primary" ng-click="send()">Sign Up for Free</button>
       </form>
       <div ng-show="success">
         <div class="alert alert-success">
-        Thanks for signing up with {{ "{{ email " }}}}. We
-          will keep you posted, expect your beta invite soon.
+        Thanks for signing up with {{ "{{ email " }}}}.
+        Please check your inbox to activate your account and enjoy the
+        app.
         </div>
       </div>
       <div ng-show="error">
