@@ -4567,3 +4567,6 @@ a.badge:hover {
 .invisible {
   visibility: hidden;
 }
+.addthis_toolbox {
+  top: 130px;
+}
