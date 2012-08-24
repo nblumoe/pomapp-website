@@ -12,7 +12,7 @@ sign up and use the app. No more waiting for an invitation to the closed
 beta.
 
 Of course I am curious about all the new feedback and to see what you
-think about the app. So please, **spread the world and invite all your
+think about the app. So please, **spread the word and invite your
 friends and colleagues** to the app.
 
 It's by purpose to go public rather early. There a many, many features
